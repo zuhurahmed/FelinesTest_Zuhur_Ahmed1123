@@ -1,8 +1,9 @@
 package be.intecbrussel.Felines;
 
-import java.util.Objects;
-
 public class SiamestCat extends Felis {
+    public SiamestCat(int badgeNo, int shelterNo) {
+        super(badgeNo, shelterNo);
+    }
 
     @Override
     public void miauw() {
@@ -11,6 +12,6 @@ public class SiamestCat extends Felis {
 
     @Override
     public String toString() {
-        return "SiameseCat{}";
+        return "SiameseCat";
     }
-    }
+}

@@ -1,17 +1,14 @@
 package be.intecbrussel.Felines;
 
 public class PersianCat extends Felis {
+    public PersianCat(int badgeNo, int shelterNo) {
+        super(badgeNo, shelterNo);
 
-    public PersianCat(int badgeNo) {
-        super(badgeNo);
     }
 
-    public PersianCat() {
-        super();
-    }
 
-    public void miauw(){
-
+    public void miauw() {
+        System.out.println("make a noise");
     }
 
     @Override
@@ -19,4 +16,9 @@ public class PersianCat extends Felis {
 
     }
 
+
+    @Override
+    public String toString() {
+        return "PersianCat";
+    }
 }

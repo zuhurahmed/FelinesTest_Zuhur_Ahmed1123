@@ -11,6 +11,14 @@ public abstract class Animal {
     {
         animalCount++;
     }
+
+    public Animal(int badgeNo, int shelterNo) {
+    }
+
+    public Animal() {
+
+    }
+
     public void makeNoise() {
         System.out.println("meow");
     }
@@ -24,7 +32,6 @@ public abstract class Animal {
     }
 
     public boolean isAlive() {
-        boolean cat = isAlive();
         return true;
 
     }
